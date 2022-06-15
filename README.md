@@ -15,15 +15,21 @@ This training is a bit different. By using the power of mustache and scripting, 
 
 ## Steps
 
-1. Clone the repository to your local machine and run "npm install" to install everything.
+1. Clone the repository to your local machine and run "npm install" in a command-line prompt to install everything.
 2. Update the "pages/urls.json" to reflect your information. Things you can change:
-    * The "testname" (currently "Toolkit Information"). This can be anything and is the title of your project. Make sure you include the final "/".
-    * The "dev" (currently "https://cdn.toolkit.illinois.edu/2.8/"). This is your development URL. If you don't have a development site, you can use your production site. 
-    * The "prod" (currently "https://cdn.toolkit.illinois.edu/2.7/"). This is your production URL. Make sure you include the final "/".
+    * The "testname" (currently "Toolkit Information"). This can be anything and is the title of your project. 
+    * The "dev" (currently "https://cdn.toolkit.illinois.edu/2.8/"). This is your development URL. If you don't have a development site, you can use your production site. Make sure you include the final "/".
+    * The "prod" (currently "https://cdn.toolkit.illinois.edu/2.7/"). This is your production URL. Again, make sure you include the final "/".
     * The individual items inside "urls". Note that the last one cannot have a comma at the end and needs the "last" value set to true. 
-3. Run "npm run backstop_create_prod_screenshots". This is generating the initial reference screenshots from your production site. 
+3. Run "npm run backstop_create_prod_screenshots" in a command-line prompt or through your IDE. This is generating the initial reference screenshots from your production site. 
 4. If you are using a single site, make changes to this site.
-5. Run "npm run backstop_test". This will generate a comparison report between the two sites. 
+5. Run "npm run backstop_test" in a command-line prompt or through your IDE. This will generate a comparison report between the two sites. 
+
+## If you have problems
+
+Make sure your "pages/urls.json" file is proper JSON. You can use an online validator like https://jsonlint.com/ or use an IDE like Visual Studio to validate your JSON. 
+
+If files are not generated, make sure you aren't adding a double slash (like adding "/" at the end of the "prod" or "dev" and "/" at the beginning of the "url" field.
 
 ## Advanced Options
  
