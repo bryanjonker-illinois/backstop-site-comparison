@@ -37,7 +37,7 @@ You can look at the /backstop_files folder to see the backstop configuration fil
 
 The /pages/urls.json also has information about the viewport. You can add or remove the viewport sizes you want to check by changing this. Again, note that the last viewport cannot have a comma at the end and needs the "last" value set to true. 
 
-Right now, the configuration options for all the pages are the same except for the label and URL. You can change this by adding additional fields in the /pages/urls.json file and extracting them in the templates using the mustache syntax. Remember that you need "{{{ }}}" instead of "{{ }}" so the infomration is not HTML encoded. Some things you may want to vary by page are the _hideSelectors_ and _misMatchThreshold_ values.
+Right now, the configuration options for all the pages are the same except for the label and URL. You can change this by adding additional fields in the /pages/urls.json file and extracting them in the templates using the mustache syntax. Remember that you need ``{{{ }}}`` instead of ``{{ }}`` so the infomration is not HTML encoded. Some things you may want to vary by page are the _hideSelectors_ and _misMatchThreshold_ values.
 
 The package.json has the actual backstop commands. We are not using the "backstop approve" command, which you normally would use to move your test files to approval. Instead, we are using the "backstop reference" command. 
 
