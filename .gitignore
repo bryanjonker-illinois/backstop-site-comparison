@@ -1,0 +1,7 @@
+# node
+node_modules/
+
+# backstop-specific files
+
+backstop_data/
+backstop_files/

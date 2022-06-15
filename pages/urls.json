@@ -1,0 +1,34 @@
+{
+    "testname": "Toolkit Information",
+    "dev": "https://cdn.toolkit.illinois.edu/2.8/",
+    "prod": "https://cdn.toolkit.illinois.edu/2.7/",
+    "urls": [
+        {
+            "url": "examples/components/breadcrumbs/index.html",
+            "label": "breadcrumbs"
+        },
+        {
+            "url": "examples/components/call-to-action/alignment/index.html",
+            "label": "call to action",
+            "last": true
+        }
+    ],
+    "viewports": [
+        {
+            "label": "phone",
+            "width": 320,
+            "height": 480
+        },
+        {
+            "label": "tablet",
+            "width": 1024,
+            "height": 768
+        },
+        {
+            "label": "desktop",
+            "width": 1920,
+            "height": 1080,
+            "last": true
+        }
+    ]
+}
