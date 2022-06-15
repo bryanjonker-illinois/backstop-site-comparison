@@ -4,7 +4,7 @@
 
 Backstop is a great project, but it is intended to compare the same project across time (for example, you are working on a site, take a snapshot of the site, then make changes, then compare the changes). This makes things a bit difficult to understand in a training session where you only have an hour to learn something that requires a whole process to have. Plus, if you are using your local machine as your testing machine, you have to make sure you have a local URL running. 
 
-This training is a bit different. By using the power of mustache, gulp, and scripting, this project allows you to test two existing URLs and see the difference between them. This can be a production site and a development site, two different versions of the same site (like in the example, version "2.7" and "2.8), or one site where you can change the content and see the effects of the change.
+This training is a bit different. By using the power of mustache, gulp, and scripting, this project allows you to test two existing URLs and see the difference between them. This can be a production site and a development site, two different versions of the same site (like in the example "pages/urls.json" file, version "2.7" and "2.8" of the toolkit), or one site where you can change the content and see the effects of the change.
 
 ## Requirements
 
