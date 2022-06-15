@@ -37,7 +37,7 @@ The package.json has the actual backstop commands. We are not using the "backsto
 
 ## Links
 
-[Backstop](https://github.com/garris/BackstopJS)
-[JSON Cheatsheet](https://quickref.me/json)
-[Gulp](https://gulpjs.com/)
-[Mustache](https://mustache.github.io/mustache.5.html)
+* [Backstop](https://github.com/garris/BackstopJS)
+* [JSON Cheatsheet](https://quickref.me/json)
+* [Gulp](https://gulpjs.com/)
+* [Mustache](https://mustache.github.io/mustache.5.html)
