@@ -20,7 +20,7 @@ This training is a bit different. By using the power of mustache, gulp, and scri
     * The "testname" (currently "Toolkit Information"). This can be anything and is the title of your project. 
     * The "dev" (currently "https://cdn.toolkit.illinois.edu/2.8/"). This is your development URL. If you don't have a development site, you can use your production site. Make sure you include the final "/".
     * The "prod" (currently "https://cdn.toolkit.illinois.edu/2.7/"). This is your production URL. Again, make sure you include the final "/".
-    * The individual items inside "urls". Note that the last one cannot have a comma at the end and needs the "last" value set to true. 
+    * The individual items inside "urls". Note that the last one cannot have a comma at the end and needs the "last" value set to true. The label can be anything you want, and the url is the relative URL based on the prod and dev path. 
 3. Run "npm run backstop_create_prod_screenshots" in a command-line prompt or through your IDE. This is creating the production configuration file and generating the initial reference screenshots from your production site. 
 4. If you are using a single site, make changes to this site.
 5. Run "npm run backstop_test" in a command-line prompt or through your IDE. This is creating the dev configuration file and will launch a comparison report between the two sites. 
