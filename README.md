@@ -9,7 +9,7 @@ This training is a bit different. By using the power of mustache and scripting, 
 ## Requirements
 
 * Two sites that are similar, or one site that you can change in between two runs. 
-* NPM installed on your machine. 
+* NPM installed on your machine. See [NPM Install Instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * Basic knowledge of JSON.
 * (Optional) An IDE like Visual Studio Code. 
 
@@ -27,7 +27,7 @@ This training is a bit different. By using the power of mustache and scripting, 
 
 ## If you have problems
 
-Make sure your "pages/urls.json" file is proper JSON. You can use an online validator like https://jsonlint.com/ or use an IDE like Visual Studio to validate your JSON. 
+Make sure your "pages/urls.json" file is proper JSON. You can use an online validator like [JSONLint](https://jsonlint.com/) or use an IDE like Visual Studio to validate your JSON. 
 
 If files are not generated, make sure you aren't adding a double slash (like adding "/" at the end of the "prod" or "dev" and "/" at the beginning of the "url" field.
 
@@ -44,6 +44,8 @@ The package.json has the actual backstop commands. We are not using the "backsto
 ## Links
 
 * [Backstop](https://github.com/garris/BackstopJS)
+* [NPM Documentation](https://docs.npmjs.com/)
 * [JSON Cheatsheet](https://quickref.me/json)
+* [JSONLint](https://jsonlint.com/)
 * [Gulp](https://gulpjs.com/)
 * [Mustache](https://mustache.github.io/mustache.5.html)
