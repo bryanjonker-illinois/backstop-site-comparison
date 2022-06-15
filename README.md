@@ -10,7 +10,7 @@ This training is a bit different. By using the power of mustache and scripting, 
 
 * Two sites that are similar, or one site that you can change in between two runs. 
 * NPM installed on your machine. See [NPM Install Instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-* Basic knowledge of JSON.
+* Basic knowledge of NPM and JSON.
 * (Optional) An IDE like Visual Studio Code. 
 
 ## Steps
